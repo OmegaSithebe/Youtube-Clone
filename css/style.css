@@ -107,7 +107,8 @@ nav{
 }
 
 .subscribed h3{
-    font-size: 13px;
+    font-size: 20px;
+    font-family: 'poppins';
     margin: 20px 0;
     color: #5a5a5a;
 }
@@ -175,8 +176,10 @@ nav{
 
 .video-list .thumbnail{
     width: 100%;
+    height: 50%;
     border-radius: 5px;
 }
+
 
 .video-list .flex-div{
     align-items: flex-start;
@@ -239,7 +242,6 @@ nav{
 
 .row{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -453,4 +455,24 @@ nav{
         margin-right: 15px;
         margin-top: 15px;
     }
+}
+
+/* Switch.html top button ========================================================================================================== */
+
+.back-button {
+    margin: 20px;
+}
+
+.btn-back {
+    text-decoration: none;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Hover effect transition */
+}
+
+.btn-back:hover {
+    background-color: #0056b3; /* Darker shade on hover */
 }
