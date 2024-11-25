@@ -35,8 +35,8 @@ img{
 .sidebar{
     width: 15%;
     height: 100vh;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
+    background: -webkit-linear-gradient(to right, #565a5e, #3f4346);  
+    background: linear-gradient(to right, #565d64, #484949);    
     top: 0;
     position: fixed;
     padding-left: 2%;
@@ -71,7 +71,7 @@ img{
     font-size: 20px;
     font-family: 'poppins';
     margin: 20px 0;
-    color: #5a5a5a;
+    color: #fff;
 }
 
 .subscribed a{
@@ -80,11 +80,12 @@ img{
     margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
+    color: #fff;
 }
 
 .subscribed a img{
-    width: 35px;
-    border-radius: 50%;
+    width: 50px;
+    border-radius: 90%;
     margin-right: 20px;
 }
 
@@ -146,8 +147,7 @@ img{
 
 /*----main---*/
 .container{
-    background: -webkit-linear-gradient(to right, #414345, #232526); 
-    background: linear-gradient(to right, #414345, #232526);
+    background: rgb(236, 230, 231);
     padding-left: 17%;
     padding-right: 2%;
     padding-bottom: 20px;
@@ -201,14 +201,16 @@ img{
 }
 
 .video-info a{
-    color: #fff;
-    font-weight:600;
+    color: var(--dark-color);
+    font-size: 17px;
+    font-weight:550;
     display: block;
     margin-bottom: 5px;
 } 
 
 .video-info p {
-    color: #fff;
+    color: var(--dark-color);
+    font-size: 14px;
 }
 
 
@@ -247,6 +249,8 @@ img{
 .play-contain{
     padding-left: 2%;
     padding-top: 20px;
+    background: -webkit-linear-gradient(to right, #565a5e, #3f4346);  
+    background: linear-gradient(to right, #565d64, #484949);
 }
 
 .row{
@@ -352,6 +356,11 @@ img{
 .owner div span{
     font-size: 13px;
     color: #5a5a5a;
+}
+
+.back-button {
+    background: -webkit-linear-gradient(to right, #565a5e, #3f4346);  
+    background: linear-gradient(to right, #565d64, #484949);    
 }
 
 .owner button{
